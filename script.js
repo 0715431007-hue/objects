@@ -19,6 +19,7 @@ function processForm(event) {
         favColor: document.getElementById("favcolor").value
     }
     // TODO: Call the addUser function and pass the newUser object as a parameter
+    addUser(newUser);
     
 }
 
